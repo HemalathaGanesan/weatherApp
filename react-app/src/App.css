@@ -1,0 +1,61 @@
+#PlacesAutocomplete__root {
+  width: 40%;
+  padding-left: 239px;
+}
+button {
+  margin-top: -47px;
+    margin-left: 175px;
+    padding: 9px;
+    position: absolute;
+    background-color: inherit;
+    border-color: black;
+    font-size: 18px;
+    color: #bcecd7;
+  
+}
+.title {
+  text-align: center;
+  font-family: -webkit-pictographmonospace;
+  font-weight: bold;
+}
+form {
+  text-align: center;
+}
+body {
+  /* background-image: url("weather.jpeg"); */
+  background-image: url('tenor.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-container {
+  width: 100%;
+  margin-top: 49px;  
+  display: flex;
+    justify-content: space-around;
+}
+.col-1, .col-2, .col-3 {
+  width: 30%;
+  font-family: sans-serif;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #f3e59d;
+  border-right-color: darkorange;
+  border-left-color: darkorange;
+  border-right-width: 7px;
+  border-left-width: 7px;
+  padding-left: 20px;
+}
+
+.col-1 img,.col-2 img,.col-3 img {
+  width: 18%;
+}
+#PlacesAutocomplete__root input{
+display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border-color: black;
+    color: ivory;
+    font-size: 21px;
+}
